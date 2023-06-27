@@ -48,7 +48,7 @@ section{
     color:azure;
 }
 h1{
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bolder;
     font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
     text-shadow: 2px 3px 2px rgba(0,0,0,0.5);
@@ -86,7 +86,8 @@ h6{
     transition: transform 0.3s ease;
 }
 .main-cont-img{
-    width:40rem;
+    width: 90%;
+    height: auto;
     filter: drop-shadow(12px 12px 12px rgba(0,0,0,0.7));
     transition: all 0.4s;
     animation: action 0.7s infinite alternate;
@@ -176,7 +177,7 @@ h3{
     color:#111;
 }
 .ag-format-container {
-    width: 1142px;
+    width: 100%!important;
     margin: 0 auto;
   }
 
@@ -188,8 +189,7 @@ h3{
   
   
   .ag-courses_box {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    
     display: flex;
     -webkit-box-align: start;
     -ms-flex-align: start;
@@ -202,7 +202,8 @@ h3{
   .ag-courses_item {
     -ms-flex-preferred-size: calc(33.33333% - 30px);
     flex-basis: calc(33.33333% - 30px);
-  
+    width: 60%;
+    height: auto;
     margin: 0 15px 30px;
     box-shadow: 5px 5px 5px rgb(105, 105, 105);
     overflow: hidden;
@@ -351,8 +352,8 @@ h2{
   text-shadow: 0em 0.1em 2em rgba(0,0,0,0.4)
 }
 
-.yellow-portion{
-  position:absolute;
+.yellow-portion{ 
+  position: absolute;
   width:100vw;
   height:100vh;
 }
@@ -369,6 +370,17 @@ h2{
 
 /* resume section */
 
+.resume--b{
+  display: flex;
+}
+
+
+.resume-center{
+  display: flex;
+  justify-content: center;
+  
+}
+
 #resume_building{
   text-align: center;
   padding-top: 3rem;
@@ -383,12 +395,12 @@ h2{
 .resume-img {
 	display: block;
 	max-width: 100%;
-  height: 16rem;
+  height: auto;
 }
 
 .stack {
 	width: 85%;
-	max-width: 400px;
+	max-width: 50%;
 	transition: .25s ease;
 	&:hover {			
 		transform: rotate(5deg);
@@ -470,7 +482,7 @@ ul{
 
 @media screen and (max-width:420px){
   h1{
-    font-size: 60px;
+    font-size: 42px;
   }
   .col-l{
     text-align: center;
